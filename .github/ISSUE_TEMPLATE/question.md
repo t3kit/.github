@@ -1,5 +1,5 @@
 ---
-name: Question
+name: "❓Question"
 about: The issue tracker is not for questions. Please ask questions on Slack
 title: ''
 labels: ''
