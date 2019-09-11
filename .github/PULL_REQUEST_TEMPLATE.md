@@ -10,7 +10,7 @@
 
 What kind of change does this PR introduce?
 
-<!-- Please check the one that applies to this PC using "x" inside brackets -->
+<!-- Please check the one that applies to this PR using "x" inside brackets -->
 
 - [ ] [FEATURE] - A new feature
 - [ ] [BUGFIX] - A bug fix
@@ -24,13 +24,13 @@ What kind of change does this PR introduce?
 
 Does this PR introduce a breaking change?
 
-<!-- Please check the one that applies to this PC using "x" inside brackets -->
+<!-- Please check the one that applies to this PR using "x" inside brackets -->
 
 - [ ] Yes
 - [ ] No
 
+<!-- If this PR contains a breaking change, please add a [!!!] label at the beginning of the commit message. -->
 <!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->
-<!-- If this PR contains a breaking change, please add [!!!] lable at the begining of commit message. -->
 
 ## Issue references
 
