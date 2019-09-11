@@ -4,14 +4,14 @@ Welcome, and thank you for your interest in contributing to **t3kit**
 
 As a contributor, here are the guidelines we would like you to follow:
 
-- [Questions and Support](#found-an-issuebug)
-- [Bug Report](#found-an-issuebug)
-- [Feature Requests](#want-to-add-new-featurefix-bug)
+- [Questions and Support](#if-you-have-a-question-or-need-a-support)
+- [Bug Report](#add-a-bug-report)
+- [Feature Requests](#add-a-new-feature)
 - [Submission Guidelines](#submission-guidelines)
-- [Coding Rules](#general-coding-rules)
-- [Commit Message Guidelines](#git-commit-message-conventions)
-- [Browsers and Devices](#coc)
-- [Code of Conduct](#coc)
+- [Coding Rules](#coding-rules)
+- [Commit Message Guidelines](#commit-message-guidelines)
+- [Browsers and Devices](#browsers-and-devices)
+- [Code of Conduct](#code-of-conduct)
 
 ***
 
@@ -23,7 +23,7 @@ To save your and our time, **we will regularly close all issues** that are reque
 
 ## 🐞Add a Bug report
 
-If you find a bug in the code or a mistake in the documentation, you can help us by [submitting an issue](#submitting_an_issue) to particular t3kit repository, or even better, you can [submit a Pull Request](submitting_a_pull_request) with a fix.
+If you find a bug in the code or a mistake in the documentation, you can help us by [submitting an issue](#submitting-an-issue) to particular t3kit repository, or even better, you can [submit a Pull Request](#submitting-a-pull-request) with a fix.
 
 ## 🚀Add a new Feature
 
@@ -43,7 +43,7 @@ Before you submit an issue please check that you've considered the following ste
 - Add a single issue per problem
 - Check **duplicates** - use the search feature to ensure that the problem hasn't been reported before.
 - Check **dependencies** - make sure you're on the right version of dependencies.
-- Check [Browsers and devices](#browser-and-device-support)
+- Check [Browsers and devices](#browsers-and-devices)
 - Use **Issue templates** - add a new issue by filling out the issue template.
 
 Unfortunately, we are not able to investigate/fix bugs without a minimal reproduction, so if we don't hear back from you **we are going to close an issue** that doesn't have enough info to be reproduced.
@@ -52,11 +52,11 @@ Unfortunately, we are not able to investigate/fix bugs without a minimal reprodu
 
 Before you submit your Pull Request (PR) please check that you've considered the following steps:
 
-- ❗️**Please ask** first before embarking on any significant pull request, otherwise you risk spending a lot of time working on something that the project's developers might not want to merge into the project. [Create an Issue](submitting_an_issue) to discuss potential big PR.
+- ❗️**Please ask** first before embarking on any significant pull request, otherwise you risk spending a lot of time working on something that the project's developers might not want to merge into the project. [Create an Issue](#submitting_an_issue) to discuss potential big PR.
 - Search in GitHub for an open or closed Pull Request that relates to your submission.
 - Provide plenty of context and reasoning around your changes, to help us merge quickly.
 - Follow our [Coding Rules](#coding-rules)
-- Follow our [Commit message conventions](#commit-message-conventions)
+- Follow our [Commit message conventions](#commit-message-guidelines)
 - Close related issue in PR header message using [GitHub keywords](https://help.github.com/articles/closing-issues-via-commit-messages).
 - If your PR gets out of date, we may ask you to rebase as you are more familiar with your changes than we will be.
 - If your PR fail on CI tests, we may ask you to fix it.
@@ -70,7 +70,7 @@ Before you submit your Pull Request (PR) please check that you've considered the
 
 ## Commit Message Guidelines
 
-Each commit message consists of a **[label](#labels)** and short **[message](#message)**.
+Each commit message consists of a **[label](#labels)** and short **[message](#git-message)**.
 
 Also, it is possible to use special keywords for [closing Github issues](https://help.github.com/articles/closing-issues-via-commit-messages).
 
