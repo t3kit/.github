@@ -1,18 +1,10 @@
 # New Pull Request checklist
 
-## Before you submit your Pull Request (PR) please check that you've considered the following steps
+## Please check if your PR fulfills the following requirements
 
-- Please ask first before embarking on any significant pull request, otherwise you risk spending a lot of time working on something that the project's developers might not want to merge into the project. [Create an Issue](#submitting_an_issue) to discuss potential big PR.
-- Search in GitHub for an open or closed Pull Request that relates to your submission.
-- Provide plenty of context and reasoning around your changes, to help us merge quickly.
-- Follow our [Coding Rules](CONTRIBUTING.md#coding-rules)
-- Follow our [Commit message conventions](CONTRIBUTING.md#commit-message-guidelines)
-- Close related issue in PR header message using [GitHub keywords](https://help.github.com/articles/closing-issues-via-commit-messages).
-- If your PR gets out of date, we may ask you to rebase as you are more familiar with your changes than we will be.
-- If your PR fail on CI tests, we may ask you to fix it.
-- [Check documentation about Pull Request on Github](https://help.github.com/articles/using-pull-requests)
-
-Learn more about [Contributing to t3kit](CONTRIBUTING.md)
+- [ ] Contributing to t3kit: <https://github.com/t3kit/.github/blob/master/CONTRIBUTING.md>
+- [ ] Coding Rules: <https://github.com/t3kit/.github/blob/master/CONTRIBUTING.md#coding-rules>
+- [ ] Commit message conventions: <https://github.com/t3kit/.github/blob/master/CONTRIBUTING.md#commit-message-guidelines>
 
 ## PR Type
 
