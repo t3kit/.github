@@ -15,15 +15,15 @@ As a contributor, here are the guidelines we would like you to follow:
 
 ***
 
-## ❓If you have question or need a Support
+## ❓If you have a question or need a Support
 
 Do not open issues for general support questions as we want to keep **t3kit GitHub issues** for bug reports and feature requests. [t3kit Slack channel](SUPPORT.md) is a much better place to ask questions and get support.
 
-To save your and our time, **we will regulary close all issues** that are requests for general support and redirect people to t3kit Slack.
+To save your and our time, **we will regularly close all issues** that are requests for general support and redirect people to t3kit Slack.
 
 ## 🐞Add a Bug report
 
-If you find a bug in the code or a mistake in the documentation, you can help us by submitting an issue to particular t3kit repository, or even better, you can submit a Pull Request with a fix.
+If you find a bug in the code or a mistake in the documentation, you can help us by [submitting an issue](#submitting_an_issue) to particular t3kit repository, or even better, you can [submit a Pull Request](submitting_a_pull_request) with a fix.
 
 ## 🚀Add a new Feature
 
@@ -40,19 +40,19 @@ You can request a new feature by submitting an issue to our t3kit repository. If
 
 Before you submit an issue please check that you've considered the following steps:
 
-- File a single issue per problem
+- Add a single issue per problem
 - Check **duplicates** - use the search feature to ensure that the problem hasn't been reported before.
 - Check **dependencies** - make sure you're on the right version of dependencies.
 - Check [Browsers and devices](#browser-and-device-support)
-- Use **Issue templates** - Please add new issues by filling out the issue template.
+- Use **Issue templates** - add a new issue by filling out the issue template.
 
-Unfortunately, we are not able to investigate / fix bugs without a minimal reproduction, so if we don't hear back from you **we are going to close an issue** that doesn't have enough info to be reproduced.
+Unfortunately, we are not able to investigate/fix bugs without a minimal reproduction, so if we don't hear back from you **we are going to close an issue** that doesn't have enough info to be reproduced.
 
 ### Submitting a Pull Request
 
 Before you submit your Pull Request (PR) please check that you've considered the following steps:
 
-- ❗️**Please ask** first before embarking on any significant pull request, otherwise you risk spending a lot of time working on something that the project's developers might not want to merge into the project. [Create an Issue](submitting_an_issue) to disscuse potential big PR.
+- ❗️**Please ask** first before embarking on any significant pull request, otherwise you risk spending a lot of time working on something that the project's developers might not want to merge into the project. [Create an Issue](submitting_an_issue) to discuss potential big PR.
 - Search in GitHub for an open or closed Pull Request that relates to your submission.
 - Provide plenty of context and reasoning around your changes, to help us merge quickly.
 - Follow our [Coding Rules](#coding-rules)
@@ -60,7 +60,7 @@ Before you submit your Pull Request (PR) please check that you've considered the
 - Close related issue in PR header message using [GitHub keywords](https://help.github.com/articles/closing-issues-via-commit-messages).
 - If your PR gets out of date, we may ask you to rebase as you are more familiar with your changes than we will be.
 - If your PR fail on CI tests, we may ask you to fix it.
-- [Check documentation about Pull Request in Github](https://help.github.com/articles/using-pull-requests/)
+- [Check documentation about Pull Request on Github](https://help.github.com/articles/using-pull-requests)
 
 ***
 
@@ -72,17 +72,18 @@ Before you submit your Pull Request (PR) please check that you've considered the
 
 Each commit message consists of a **[label](#labels)** and short **[message](#message)**.
 
-Also it is possible to use special keywords for [closing Github issues](https://help.github.com/articles/closing-issues-via-commit-messages).
+Also, it is possible to use special keywords for [closing Github issues](https://help.github.com/articles/closing-issues-via-commit-messages).
 
 ### Git message
 
 - Use the imperative, present tense: "change" not "changed" or "changes"
-- don't capitalize first letter
+- don't capitalize the first letter
 - no dot (.) at the end
 
 ### Labels
 
-Please use semantic labels for your messages, but if commit message is not very important, you can skip labels. **All commits with labels will be added in CHANGELOG file, that's why it is important to use predefined labels on your commits.**
+Please use semantic labels for your messages, but if commit message is not very important, you can skip labels.
+️️️️️❗️**Only commits with labels will be added in CHANGELOG file**, that's why it is important to use predefined labels on your commits.
 
 - **[FEATURE]** - A new feature
 - **[BUGFIX]** - A bug fix
@@ -93,12 +94,12 @@ Please use semantic labels for your messages, but if commit message is not very 
 - **[WIP]** - Work in progress tag, should not be present when creating pull requests
 - **[SECURITY]** - To mark important updates, when evaluating when we should update older sites
 
-**Important:** Commit label must be **only one**, except if it Breaking Changes, then we will need to add _"Breaking Changes"_ label `[!!!]` at front.
+‼️**Important:** Commit label must be **only one**, except if it Breaking Changes, then we will need to add _"Breaking Changes"_ label `[!!!]` at front.
 
 For example (Breaking Changes):
 
 ``` git
-[!!!][BUGFIX] change default css styling for Text and Image CE
+[!!!][BUGFIX] change default CSS styling for Text and Image CE
 ```
 
 ***
