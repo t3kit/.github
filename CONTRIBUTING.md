@@ -66,6 +66,24 @@ Before you submit your Pull Request (PR) please check that you've considered the
 
 ## Coding Rules
 
+### Setup IDE / Editor preferences
+
+Set your editor to use [t3kit Editor config](https://github.com/t3kit/t3kit-starter/blob/master/.editorconfig) settings to avoid common code inconsistencies and dirty diffs.
+
+_[Read more about Editor config and download plugins](https://editorconfig.org)_
+
+### PHP, TypoScript, TSconfig, XLIFF, Yaml
+
+We follow [TYPO3 coding guidelines](https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/CodingGuidelines/Index.html)
+
+### JS
+
+We follow [JavaScript Standard Style](https://standardjs.com)
+
+### CSS, SCSS
+
+We follow [Stylelint Config Standard](https://github.com/stylelint/stylelint-config-standard)
+
 ***
 
 ## Commit Message Guidelines
