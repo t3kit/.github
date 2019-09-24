@@ -84,6 +84,14 @@ We follow [JavaScript Standard Style](https://standardjs.com)
 
 We follow [Stylelint Config Standard](https://github.com/stylelint/stylelint-config-standard)
 
+### Shell scripts
+
+Use [shellcheck](https://github.com/koalaman/shellcheck) static analysis tool for shell scripts
+
+### Dockerfile
+
+Use [hadolint](https://github.com/hadolint/hadolint) as a Dockerfile linter
+
 ***
 
 ## Commit Message Guidelines
