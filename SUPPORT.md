@@ -1,4 +1,4 @@
-## t3kit Support
+# t3kit Support
 
 > This project has a [Code of Conduct](CODE_OF_CONDUCT.md).
 > By interacting with this repository, organization, or community you agree to
@@ -7,15 +7,17 @@
 We use GitHub for project planning, developing, tracking bugs, ideas and feature requests.
 This isn't the right place to get support for using t3kit, but if you're looking for support there are other options, check out:
 
-### Documentation
- * [Documentation]()
- * [t3kit Demo]()
- * [Official t3kit site]()
+## Documentation
 
-### Contributing
- * [Contributing to t3kit](CONTRIBUTING.md)
+- [Documentation](https://t3kit.gitbook.io/doc)
+- [t3kit Demo](demo.t3kit.com)
+- [Official t3kit site](t3kit.com)
 
-### Slack
+## Contributing
+
+- [Contributing to t3kit](CONTRIBUTING.md)
+
+## Slack
 
 If regular instructions are not enough to effectively use t3kit, then contact us on Slack and we will try to help you.
 
