@@ -114,11 +114,10 @@ Please use semantic labels for your messages, but if commit message is not very 
 - **[FEATURE]** - A new feature
 - **[BUGFIX]** - A bug fix
 - **[TASK]** - Any task, which is not a **new feature** or **bugfix**
-- **[TEST]** - Adding missing tests
-- **[DOC]** - Documentation only changes
-- **[!!!]** - Breaking Changes
+- **[TEST]** - Adding/updating tests and CI config
+- **[DOC]** - Documentation only changes/updates
 - **[WIP]** - Work in progress tag, should not be present when creating pull requests
-- **[SECURITY]** - To mark important updates, when evaluating when we should update older sites
+- **[!!!]** - Breaking Changes
 
 ‼️**Important:** Commit label must be **only one**, except if it Breaking Changes, then we will need to add _"Breaking Changes"_ label `[!!!]` at front.
 
@@ -134,19 +133,19 @@ For example (Breaking Changes):
 
 t3kit supports the **latest browser versions** of each major mobile and desktop platforms.
 
-### Mobile devices
+### Mobile browsers support
 
-|📱        |Chrome|Safari|Android Browser|
-|----------|------|------|---------------|
-|Android 8+|✅    |N/A   |✅             |
-|iOS 12+   |✅    |✅    |N/A            |
+|📱 (latest)|Chrome|Safari|Android Browser|
+|-----------|------|------|---------------|
+|Android 8+ |✅    |N/A   |✅             |
+|iOS 13+    |✅    |✅    |N/A            |
 
-### Desktop browsers
+### Desktop browsers support
 
-|🖥         |Chrome|Firefox|Safari|Microsoft Edge|IE |
-|-----------|------|-------|------|--------------|---|
-|Mac 10.14+ |✅    |✅     |✅    |N/A           |N/A|
-|Windows 10+|✅    |✅     |N/A   |✅            |❌ |
+|🖥 (latest) |Chrome|Firefox|Safari|Microsoft Edge|IE |
+|------------|------|-------|------|--------------|---|
+|Mac 10.14+  |✅    |✅     |✅    |N/A           |N/A|
+|Windows 10+ |✅    |✅     |N/A   |✅            |❌ |
 
 ***
 
