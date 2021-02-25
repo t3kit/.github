@@ -131,21 +131,12 @@ For example (Breaking Changes):
 
 ## Browsers and Devices
 
-t3kit supports the **latest browser versions** of each major mobile and desktop platforms.
+t3kit supports the **latest and popular browser versions** of each major mobile and desktop platforms. 
 
-### Mobile browsers support
+We are using [Can I Use](https://caniuse.com/usage-table) data and [Browserslist](https://github.com/browserslist/browserslist) plugin to manage and define the target browsers list
 
-|📱 (latest)|Chrome|Safari|Android Browser|
-|-----------|------|------|---------------|
-|Android 8+ |✅    |N/A   |✅             |
-|iOS 13+    |✅    |✅    |N/A            |
-
-### Desktop browsers support
-
-|🖥 (latest) |Chrome|Firefox|Safari|Microsoft Edge|IE |
-|------------|------|-------|------|--------------|---|
-|Mac 10.14+  |✅    |✅     |✅    |N/A           |N/A|
-|Windows 10+ |✅    |✅     |N/A   |✅            |❌ |
+- [Here](https://github.com/t3kit/t3kit/blob/master/package.json) (check `browserslist`) you can always find an up-to-date list of supported browsers
+- Also, it is possible to redefine it on a project base like in [this example](https://github.com/t3kit/t3kit-starter/blob/master/public/typo3conf/ext/theme_newcustomproject/package.json)
 
 ***
 

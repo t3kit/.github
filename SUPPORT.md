@@ -10,8 +10,8 @@ This isn't the right place to get support for using t3kit, but if you're looking
 ## Documentation
 
 - [Documentation](https://t3kit.gitbook.io/doc)
-- [t3kit Demo](demo.t3kit.com)
-- [Official t3kit site](t3kit.com)
+- [t3kit Demo](https://demo.t3kit.com)
+- [Official t3kit site](https://t3kit.com)
 
 ## Contributing
 
