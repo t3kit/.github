@@ -8,8 +8,7 @@ As a contributor, here are the guidelines we would like you to follow:
 - [Bug Report](#add-a-bug-report)
 - [Feature Requests](#add-a-new-feature)
 - [Submission Guidelines](#submission-guidelines)
-- [Coding Rules](#coding-rules)
-- [Commit Message Guidelines](#commit-message-guidelines)
+- [Coding Guidelines](#coding-guidelines)
 - [Browsers and Devices](#browsers-and-devices)
 - [Code of Conduct](#code-of-conduct)
 
@@ -64,68 +63,75 @@ Before you submit your Pull Request (PR) please check that you've considered the
 
 ***
 
-## Coding Rules
+## Coding Guidelines
 
-### Setup IDE / Editor preferences
-
-Set your editor to use [t3kit Editor config](https://github.com/t3kit/t3kit-starter/blob/master/.editorconfig) settings to avoid common code inconsistencies and dirty diffs.
-
-_[Read more about Editor config and download plugins](https://editorconfig.org)_
-
-### PHP, TypoScript, TSconfig, XLIFF, Yaml
-
-We follow [TYPO3 coding guidelines](https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/CodingGuidelines/Index.html)
-
-### JS
-
-We follow [JavaScript Standard Style](https://standardjs.com)
-
-### CSS, SCSS
-
-We follow [Stylelint Config Standard](https://github.com/stylelint/stylelint-config-standard)
-
-### Shell scripts
-
-Use [shellcheck](https://github.com/koalaman/shellcheck) static analysis tool for shell scripts
-
-### Dockerfile
-
-Use [hadolint](https://github.com/hadolint/hadolint) as a Dockerfile linter
+❗️ This part is quite important. If some of these rules are missed, you will not pass the CI test and will not be able to contribute. This is not to add complexity, but to maintain the quality of the code at a good level in the long run.
 
 ***
 
-## Commit Message Guidelines
+### 1. Make sure that you have the correct [required dependencies](https://github.com/t3kit/t3kit-starter#required-dependencies)
 
-Each commit message consists of a **[label](#labels)** and short **[message](#git-message)**.
+### 2. Code style
 
-Also, it is possible to use special keywords for [closing Github issues](https://help.github.com/articles/closing-issues-via-commit-messages).
+#### Editor config
 
-### Git message
+- Set your editor to use [t3kit Editor config](https://github.com/t3kit/t3kit-starter/blob/master/.editorconfig) settings to avoid common code inconsistencies and dirty diffs. _[Read more about Editor config and download plugins](https://editorconfig.org)_
+
+#### PHP, TypoScript, Yaml
+
+- We follow [TYPO3 coding guidelines](https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/CodingGuidelines/Index.html) plus [.phpcs.xml](https://github.com/t3kit/t3kit-starter/blob/master/.phpcs.xml) and [typoscript-lint.yml](https://github.com/t3kit/t3kit-starter/blob/master/typoscript-lint.yml)
+
+
+#### JS
+
+- We follow [JavaScript Standard Style](https://standardjs.com)
+
+#### CSS
+
+- We follow [Stylelint Config Standard](https://github.com/stylelint/stylelint-config-standard) with some adjustments [here](https://github.com/t3kit/t3kit/blob/master/package.json)
+
+#### Shell scripts
+
+- Use [shellcheck](https://github.com/koalaman/shellcheck) static analysis tool for shell scripts
+
+#### Dockerfile
+
+- Use [hadolint](https://github.com/hadolint/hadolint) as a Dockerfile linter
+
+***
+
+### 3. GIT
+
+#### Commit Message Guidelines
+
+- Each commit message consists of a **[label](#labels)** and short **[message](#git-message)**. Also, it is possible to use special keywords for [closing Github issues](https://help.github.com/articles/closing-issues-via-commit-messages).
+
+#### Git message
 
 - Use the imperative, present tense: "change" not "changed" or "changes"
 - don't capitalize the first letter
 - no dot (.) at the end
 
-### Labels
+#### Labels
 
-Please use semantic labels for your messages, but if commit message is not very important, you can skip labels.
-️️️️️❗️**Only commits with labels will be added in CHANGELOG file**, that's why it is important to use predefined labels on your commits.
+- Please use semantic labels for your messages, but if commit message is not very important, you can skip the label.
+- ❗️**Only commit with label will be added in CHANGELOG file**, that's why it is important to use predefined labels on your commits.
 
-- **[FEATURE]** - A new feature
-- **[BUGFIX]** - A bug fix
-- **[TASK]** - Any task, which is not a **new feature** or **bugfix**
-- **[TEST]** - Adding/updating tests and CI config
-- **[DOC]** - Documentation only changes/updates
-- **[WIP]** - Work in progress tag, should not be present when creating pull requests
-- **[!!!]** - Breaking Changes
+    - **[FEATURE]** - A new feature
+    - **[BUGFIX]** - A bug fix
+    - **[TASK]** - Any task, which is not a **new feature** or **bugfix**
+    - **[TEST]** - Adding/updating tests and CI config
+    - **[DOC]** - Documentation only changes/updates
+    - **[WIP]** - Work in progress tag, should not be present when creating pull requests
+    - **[!!!]** - Breaking Changes
 
-‼️**Important:** Commit label must be **only one**, except if it Breaking Changes, then we will need to add _"Breaking Changes"_ label `[!!!]` at front.
+- ❗️**Important:** Commit label must be **only one**, except if it Breaking Changes, then we will need to add _"Breaking Changes"_ label `[!!!]` at front.
 
-For example (Breaking Changes):
+    - For example (Breaking Change):
 
-``` git
-[!!!][BUGFIX] change default CSS styling for Text and Image CE
-```
+    ``` git
+        [!!!][BUGFIX] change default CSS styling for Text and Image CE
+    ```
 
 ***
 
