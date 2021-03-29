@@ -18,7 +18,6 @@ What kind of change does this PR introduce?
 - [ ] [TEST] - Adding missing tests
 - [ ] [DOC] - Documentation only changes
 - [ ] [WIP] - Work in progress tag, should not be present when creating pull requests
-- [ ] [SECURITY] - To mark important updates, when evaluating when we should update older sites
 
 ## Breaking change
 
