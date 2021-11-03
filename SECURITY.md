@@ -9,7 +9,8 @@ Security updates and maintenance for **t3kit** supported by **t3kit organization
 |7              |:x:               |
 |8-8.8          |:x:               |
 |8.9            |:x:               |
-|10             |:white_check_mark:|
+|10             |:x:               |
+|11             |:white_check_mark:|
 
 *_Security updates support time for t3kit is the same as a **Regular Maintainance** period for **TYPO3**._
 
